@@ -1,0 +1,26 @@
+.filterList {
+  display: flex;
+  align-items: center;
+}
+
+.filterList > div > span {
+  padding: 0 16px;
+  line-height: 21px;
+  cursor: pointer;
+  color: #57606a;
+}
+
+.filterList > div > span:hover {
+  color: #000000;
+}
+
+.filterItem {
+  position: relative;
+
+}
+
+.modalContainer {
+  top: 20px;
+  left: 20px;
+  position: absolute;
+}
